@@ -1,3 +1,5 @@
+@import 'lib/normalize';
+
 $font-stack: 'Raleway', sans-serif;
 $blue: #336699;
 $white: #fff;
@@ -9,6 +11,3 @@ h1 {
 h1.blue {
     @extend h1;
 }
-
-
-.test { /* test stuff here */ }

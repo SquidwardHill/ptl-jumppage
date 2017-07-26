@@ -1,3 +1,6 @@
 
 .DS_Store
 ptl-jump-page/.editorconfig
+.sass-cache/
+*.map
+css/main.css
