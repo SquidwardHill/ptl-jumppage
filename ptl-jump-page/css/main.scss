@@ -1,0 +1,11 @@
+$font-stack: 'Raleway', sans-serif;
+$blue: #336699;
+$white: #fff;
+
+h1 {
+    font-family: $font-stack;
+    
+}
+h1.blue {
+    @extend h1;
+}
