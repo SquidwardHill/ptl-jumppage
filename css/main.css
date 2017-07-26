@@ -364,13 +364,15 @@ h1, h1.dark, h2, h3 {
   line-height: 1.3em; }
 
 h1, h1.dark {
-  font-size: 45px; }
+  font-size: 45px;
+  font-weight: bold; }
 
 h1.dark {
   color: #336699; }
 
 h2 {
-  font-size: 30px;
+  font-weight: bold;
+  font-size: 38px;
   color: #336699; }
 
 h2.light {
@@ -378,23 +380,29 @@ h2.light {
   color: #fff; }
 
 h3 {
-  font-size: 24px; }
+  font-size: 26px; }
 
 h3.light {
   color: #fff; }
 
 /*BUTTONS*/
 .button, .dark-button, .light-button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
   text-decoration: none;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
   display: inline-block;
   max-width: 150px;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  font-size: 24px;
+  font-size: 20px;
   padding: 10px 20px;
   margin: auto;
-  margin: 10px; }
+  margin: 10px;
+  min-width: 150px;
+  letter-spacing: .2px; }
+  .button:hover, .dark-button:hover, .light-button:hover {
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6); }
 
 .dark-button {
   color: #fff;
@@ -436,7 +444,7 @@ h3.light {
 
 /*CUSTOM*/
 .border-bottom-red {
-  border-bottom: 2px solid #ed3443; }
+  border-bottom: 4px solid #ed3443; }
 
 .main {
   text-align: center;
@@ -480,7 +488,7 @@ h3.light {
 /*MEDIA QUERIES*/
 @media (min-width: 767px) {
   h1, h1.dark {
-    font-size: 55px; }
+    font-size: 60px; }
 
   .two-col {
     width: 50%;
@@ -505,6 +513,8 @@ h3.light {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex; }
+    .bottom h3 {
+      margin-bottom: 15px; }
 
   .logo {
     margin: 10px; }
