@@ -67,7 +67,7 @@ h1, h2, h3 {
     line-height:1.3em;
 }
 h1 {
-    font-size: 45px;
+    font-size: 40px;
     font-weight:bold;
 }
 h1.dark {
@@ -138,6 +138,10 @@ h3.light {
     padding: 60px 0;
 }
 /*CUSTOM*/
+.inner-wrapper{
+    max-width:80%;
+    margin:auto;
+}
 .border-bottom-red {
     border-bottom: 4px solid $red;
 }
@@ -168,7 +172,7 @@ h3.light {
 /*MEDIA QUERIES*/
 @media(min-width:767px){
     h1 {
-        font-size: 60px;
+        font-size: 45px;
     }
     .two-col {
         width:50%;
